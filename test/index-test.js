@@ -22,7 +22,7 @@ describe('InFrontOfYou', function () {
   });
 
   it('should have the right DOM markup', function () {
-    expect(this.wrapper.html()).toEqual(`<div><p>You shouldn&#x27;t look too far.</p><p>Sometimes, the solution is <strong>right in front of you.</strong></p></div>`);
+    expect(this.wrapper.html()).toEqual(`<div><p>You shouldn&#x27;t look too far.</p><p>Sometimes, the solution is right in front of you.</p></div>`);
   });
 });
 
